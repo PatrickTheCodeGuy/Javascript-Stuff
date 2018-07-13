@@ -1,0 +1,13 @@
+//Prompt question to user
+
+var answer = prompt("Are we there yet?");
+
+//Check user response
+
+while(answer.indexOf("yes") === -1)
+{
+	var answer = prompt("Are we there yet?");
+
+}
+//We made it
+ alert("Yay we made it!");
